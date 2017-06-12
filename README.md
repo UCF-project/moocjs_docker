@@ -16,7 +16,7 @@ git clone git@git.rnd.alterway.fr:UCF/vish_docker.git
 cd vish_docker
 
 # Create a ssh key that has access to project repository git@git.rnd.alterway.fr:UCF/vish.git
-ssh-kkeygen -t rsa
+ssh-keygen -t rsa -f ./id_rsa
 
 # Build docker image
 docker build -t vish:ucf  ./
